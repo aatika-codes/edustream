@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<head>
+    <title>EduStream | Student Login</title>
+    <link rel="stylesheet" href="css/style.css">
+	<script src="js/script.js"></script>
+</head>
+<body class="login-page">
+<div class="nav-links">
+			<a href="index.html" class="nav-item">Home</a>
+            <a href="modules.html" class="nav-item">All Modules</a>
+            <a href="progress.html" class="nav-item">My Progress</a>
+			 <a href="grading.html" class="nav-item">Grading-system</a>
+			 <a href="login.html" class="nav-item">Student login</a>
+</div>
+
+    <div class="login-container">
+        <div class="login-box">
+            <img src="img/l.png" alt="Logo" class="login-logo">
+            <h2>Student Login</h2>
+            <p>Access your O-Level Dashboard</p>
+
+            <form action="#">
+                <div class="input-group">
+                    <label>Registration Number</label>
+                    <input type="text"id="regNo" placeholder="Enter NIELIT Reg No." required>
+                </div>
+
+                <div class="input-group">
+                    <label>Password</label>
+                    <input type="password"id="pass" placeholder="••••••••" required>
+                </div>
+
+                <button type="button" class="btn-red"onclick="validateLogin()">Sign In</button>
+
+                <div class="login-footer">
+                    <a href="#">Forgot Password?</a>
+                    <p>New here? <a href="#">Create Account</a></p>
+                </div>
+            </form>
+        </div>
+    </div>
+
+</body>
+</html>
